@@ -1,0 +1,6 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}   
+/* переписать сохранение туду в локал сторидж */

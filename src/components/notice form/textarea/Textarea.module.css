@@ -1,0 +1,15 @@
+.textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  resize: none;
+  background-color: transparent;
+  border: none;
+}
+.invalid {
+  border: 1px solid #ff0000;
+  background: rgb(68, 6, 6);
+  color: #fff;
+}

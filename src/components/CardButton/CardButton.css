@@ -1,0 +1,53 @@
+.card-button {
+  display: block;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-align: start;
+  width: 100%;
+}
+.save-button {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  width: 100px;
+  height: 35px;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.delete:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+}
+.card-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.journal-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (max-width: 480px) {
+  .card-button {
+    padding: 15px;
+  }
+}
