@@ -89,12 +89,12 @@ export const NoticeForme = ({ data, onSubmit, onDelete }) => {
           onClick={() => onDelete(data.id)}
           disabled={!data?.id}
         >
-          <img src="/delete.svg" alt="удалить метку" />
+          <img src="delete.svg" alt="удалить метку" />
         </CardButton>
       </div>
       <div className={styles["form-row"]}>
         <label htmlFor="date" className={styles["form-lable"]}>
-          <img src="/data.svg" alt="метка" />
+          <img src="data.svg" alt="метка" />
           <span>Дата</span>
         </label>
         <Input
@@ -111,7 +111,7 @@ export const NoticeForme = ({ data, onSubmit, onDelete }) => {
       </div>
       <div className={styles["form-row"]}>
         <label htmlFor="tag" className={styles["form-lable"]}>
-          <img src="/folder.svg" alt="метка" />
+          <img src="folder.svg" alt="метка" />
           <span>Метки</span>
         </label>
         <Input
